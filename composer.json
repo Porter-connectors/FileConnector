@@ -9,15 +9,15 @@
   ],
   "license": "LGPL-3.0",
   "require": {
-    "php": "^7",
+    "php": "^5.5|^7",
     "scriptfusion/porter": "4.0.x-dev"
   },
   "require-dev": {
-    "phpunit/phpunit": "^6"
+    "phpunit/phpunit": "^5.2"
   },
   "autoload": {
     "psr-4": {
-      "ScriptFUSION\\Porter\\Net\\File\\": "src"
+      "ScriptFUSION\\Porter\\Connector\\File\\": "src"
     }
   },
   "autoload-dev": {
